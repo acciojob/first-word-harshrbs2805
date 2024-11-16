@@ -1,4 +1,8 @@
 function firstWord(s) {
+
+	let ans=s.trim().split(" ")
+    let myword=ans[0]
+    return myword
   // your code here
 }
 
